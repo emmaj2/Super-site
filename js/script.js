@@ -1,7 +1,7 @@
 const images = [
-  "img/chiale1.PNG",
-  "img/chiale2.PNG",
-  "img/chiale3.PNG"
+  "/img/chiale1.PNG",
+  "/img/chiale2.PNG",
+  "/img/chiale3.PNG"
 ];
 
 let body = document.querySelector("body");
@@ -12,7 +12,7 @@ function creerImage(event) {
 
   // Image initiale
   const randomUrl = images[Math.floor(Math.random() * images.length)];
-
+  
   img.src = "/img/a.jpg";
 
   // Position de l’image au clic
