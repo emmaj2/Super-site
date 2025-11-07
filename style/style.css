@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    background-color: rgb(41, 41, 40);
+    color: rgb(241, 182, 238);
+    min-height: 100vh;
+}
+
+img {
+    position: absolute;
+    width: 10%;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
