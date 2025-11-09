@@ -14,7 +14,7 @@ function creerImage(event) {
   const img = document.createElement("img");
   const randomUrl = images[Math.floor(Math.random() * images.length)];
   img.src = "img/a.jpg";
-
+  img.dataset.type = "a";
   img.style.position = "absolute";
   img.style.left = `${event.clientX}px`;
   img.style.top = `${event.clientY}px`;
